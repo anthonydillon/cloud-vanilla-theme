@@ -75,6 +75,6 @@
     "gulp-util": "3.0.4"
   },
   "dependencies": {
-     "vanilla-framework": "^0.0.66"
+     "vanilla-framework": "^0.0.67"
   }
 }
