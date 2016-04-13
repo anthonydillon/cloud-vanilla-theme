@@ -1,17 +1,19 @@
 
 /// the theme's core brand colour
-$brand-color:           #000;
+$brand-color:           #000 !default;
 
-$button-primary-color:	#dd4814;
+$button-primary-color:	#dd4814 !default;
 
-$link-color:            #333;
+$link-color:            #333 !default;
 
-$silver:                #ccc;
+$silver:                #ccc !default;
 
-$grey:                  #ddd;
+$grey:                  #ddd !default;
 
-$error:                 #df382c;
+$error:                 #df382c !default;
 
-$pending:               #eaa818;
+$pending:               #eaa818 !default;
 
-$success:               #38b44a;
+$success:               #38b44a !default;
+
+$header-link-color:     $white !default;
