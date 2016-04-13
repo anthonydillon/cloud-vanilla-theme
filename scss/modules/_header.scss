@@ -7,66 +7,39 @@
 /// Cloud header styling
 /// @group header
 @mixin cloud-header {
-  // scss-lint:disable NestingDepth
   .banner {
     background: $black;
-    border-bottom: 0;
-    box-shadow: 0;
+    box-shadow: none;
 
     @media only screen and (min-width: $navigation-threshold) {
-      border-bottom: 0;
-      box-shadow: none;
-    }
-
-    .nav-primary {
-
-      @media only screen and (min-width: $navigation-threshold) {
+      .nav-primary {
         width: auto;
       }
 
       ul {
+        border-top: 0;
+        border-right: 0;
+        box-shadow: none;
+      }
 
-        @media only screen and (min-width: $navigation-threshold) {
-          border-top: 0;
-          border-right: 0;
-          box-shadow: none;
-        }
+      li {
+        width: auto;
+        border-right: 0;
+        border-bottom: 0;
 
-        li {
+        &:last-child {
 
-          @media only screen and (min-width: $navigation-threshold) {
-            width: auto;
+          a {
             border-right: 0;
-            border-bottom: 0;
-            border-left: 1px solid $cool-grey;
-
-            &:last-child {
-              border-right: 1px solid $cool-grey;
-              border-left: 1px solid $cool-grey;
-
-              a {
-                border-right: 0;
-              }
-            }
-          }
-
-          @media only screen and (max-width: $navigation-threshold) {
-            &:nth-child(2n+2) {
-              border-right: 0;
-            }
-          }
-
-          a,
-          a:link,
-          a:visited {
-
-            @media only screen and (min-width: $navigation-threshold) {
-              border-left: 0;
-            }
           }
         }
       }
+
+      a,
+      a:link,
+      a:visited {
+        border-left: 0;
+      }
     }
   }
-  // scss-lint:enable NestingDepth
 } // @mixin vf-header
