@@ -10,16 +10,4 @@
   body {
     background: url('#{$asset-path}img/backgrounds/image-background-paper.png') repeat-y center top $light-grey;
   }
-
-  .banner {
-    margin-bottom: 0;
-
-    .nav-primary {
-      width: 100%;
-    }
-  }
-
-  .logo img {
-    padding-left: 14px;
-  }
 }
