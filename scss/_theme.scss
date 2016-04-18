@@ -6,7 +6,6 @@
 @import '../node_modules/vanilla-framework/scss/vanilla';
 
 /// cloud element styles
-@import 'modules/actions';
 @import 'modules/base';
 @import 'modules/buttons';
 @import 'modules/documentation';
@@ -15,11 +14,11 @@
 @import 'modules/instructions';
 @import 'modules/rows';
 @import 'modules/strips';
+@import 'modules/social-list';
 @import 'modules/typography';
 
 @mixin cloud-vanilla-theme {
   @include vanilla;
-  @include cloud-actions;
   @include cloud-base;
   @include cloud-buttons;
   // @include cloud-documentation;
@@ -28,5 +27,6 @@
   @include cloud-instructions;
   @include cloud-rows;
   @include cloud-strips;
+  @include cloud-social-list;
   @include cloud-typography;
 }
