@@ -1,0 +1,47 @@
+////
+/// @author       Juju GUI team at Canonical Ltd
+/// @link         http://ubuntudesign.github.io/cloud-vanilla-theme/docs/#cloud-actions
+/// @since        0.0.21
+////
+
+/// Actions classes
+/// @group Utils
+@mixin cloud-actions {
+	.actions {
+
+		&__social-list {
+			list-style: none;
+			padding-left: 0;
+			margin-left: 0;
+		}
+
+		&__social-item--twitter,
+		&__social-item--google-plus {
+			margin-right: 20px;
+			float: left;
+			text-indent: -99999px;
+			background-image: url("https://assets.ubuntu.com/v1/3a7c44e0-icon-social.svg");
+			background-repeat: no-repeat;
+			height: 44px;
+			width: 44px;
+			overflow: hidden;
+			display: inline-block;
+		}
+
+		&__social-item--twitter {
+			background-position: 0 0;
+
+			&:hover {
+				background-position: 0 -45px;
+			}
+		}
+
+		&__social-item--google-plus {
+			background-position: -45px 0;
+
+			&:hover {
+				background-position: -45px -45px;
+			}
+		}
+	}
+}
