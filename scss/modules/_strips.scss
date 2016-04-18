@@ -14,6 +14,10 @@
   .strip-dark {
     background: $cool-grey;
     color: $white;
+
+    a {
+      color: $white;
+    }
   }
 
   .strip-trans {

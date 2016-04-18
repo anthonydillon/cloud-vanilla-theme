@@ -8,6 +8,7 @@
 /// cloud element styles
 @import 'modules/base';
 @import 'modules/buttons';
+@import 'modules/cookie-policy';
 @import 'modules/documentation';
 @import 'modules/footer';
 @import 'modules/header';
@@ -20,6 +21,7 @@
   @include vanilla;
   @include cloud-base;
   @include cloud-buttons;
+  @include cloud-cookie-policy;
   // @include cloud-documentation;
   @include cloud-header;
   @include cloud-footer;
