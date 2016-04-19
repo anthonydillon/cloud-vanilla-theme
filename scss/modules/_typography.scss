@@ -16,6 +16,10 @@
   }
 
   pre {
-    background-color: $white;
+    padding: 10px 15px;
+    background-color: $cool-grey;
+    border: none;
+    border-radius: 2px;
+    color: $mid-grey;
   }
 }
