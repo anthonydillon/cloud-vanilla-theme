@@ -13,6 +13,7 @@
 @import 'modules/footer';
 @import 'modules/header';
 @import 'modules/instructions';
+@import 'modules/list-block';
 @import 'modules/rows';
 @import 'modules/strips';
 @import 'modules/social-list';
@@ -27,6 +28,7 @@
   @include cloud-header;
   @include cloud-footer;
   @include cloud-instructions;
+  @include cloud-list-block;
   @include cloud-rows;
   @include cloud-strips;
   @include cloud-social-list;
