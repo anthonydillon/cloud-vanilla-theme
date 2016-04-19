@@ -9,7 +9,7 @@
 @import 'modules/base';
 @import 'modules/buttons';
 @import 'modules/cookie-policy';
-@import 'modules/documentation';
+@import 'modules/deep-link';
 @import 'modules/footer';
 @import 'modules/header';
 @import 'modules/instructions';
@@ -23,7 +23,7 @@
   @include cloud-base;
   @include cloud-buttons;
   @include cloud-cookie-policy;
-  // @include cloud-documentation;
+  @include cloud-deep-link;
   @include cloud-header;
   @include cloud-footer;
   @include cloud-instructions;
