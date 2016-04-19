@@ -7,10 +7,9 @@
 /// cookie policy
 /// @group Utils
 @mixin cloud-cookie-policy {
-  $cookie-background: #fae4dc;
 
   .cookie-policy {
-    @include box_shadow(0 -1px 2px rgba(0, 0, 0, .2));
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, .2);
     background-color: $cookie-background;
     position: fixed;
     bottom: 0;
@@ -26,7 +25,7 @@
     }
 
     .link-cta {
-      background-image: url('https://assets.ubuntu.com/v1/3f057022-close-orange.svg');
+      background-image: url('#{$asset-server}3f057022-close-orange.svg');
       background-repeat: no-repeat;
       color: $white;
       float: right;
@@ -41,10 +40,10 @@
     }
   }
 
-  html.no-svg,
-  html.opera-mini {
+  .no-svg,
+  .opera-mini {
     .cookie-policy .link-cta {
-      background-image: url('https://assets.ubuntu.com/v1/898777ac-close-orange.png');
+      background-image: url('#{$asset-server}898777ac-close-orange.png');
     }
   }
 }
