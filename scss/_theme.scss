@@ -16,6 +16,7 @@
 @import 'modules/rows';
 @import 'modules/strips';
 @import 'modules/social-list';
+@import 'modules/tooltip';
 @import 'modules/typography';
 
 @mixin cloud-vanilla-theme {
@@ -30,5 +31,6 @@
   @include cloud-rows;
   @include cloud-strips;
   @include cloud-social-list;
+  @include cloud-tooltip;
   @include cloud-typography;
 }
