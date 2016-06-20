@@ -9,7 +9,6 @@
 @mixin cloud-instructions {
   $border-color:       #ddd !default;
   $command-line-color: #2c001e !default;
-  $asset-path: 'https://assets.ubuntu.com';
 
 	// scss-lint:disable SelectorFormat
   .instruction {
@@ -78,7 +77,7 @@
         height: 100%;
         display: block;
         text-indent: -9999px;
-        background-image: url('#{$asset-path}/v1/994e60f9-get-link-url_16.svg');
+        background-image: url('#{$asset-path}svgs/get-link-url_16.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-color: $white;
