@@ -10,6 +10,7 @@
 @import 'modules/buttons';
 @import 'modules/cookie-policy';
 @import 'modules/deep-link';
+@import 'modules/featured-entity';
 @import 'modules/footer';
 @import 'modules/forms';
 @import 'modules/header';
@@ -26,6 +27,7 @@
   @include cloud-buttons;
   @include cloud-cookie-policy;
   @include cloud-deep-link;
+  @include cloud-featured-entity;
   @include cloud-header;
   @include cloud-footer;
   @include cloud-forms;
